@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterficieCoppeliaCodesys", "InterficieCoppeliaCodesys\InterficieCoppeliaCodesys.csproj", "{D5E58A00-D5E3-4EA5-BD9F-168E998FAF0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Llibreria", "Llibreria\Llibreria.csproj", "{D444E89D-C728-40B5-B94E-8A6BFC4800BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E58A00-D5E3-4EA5-BD9F-168E998FAF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E58A00-D5E3-4EA5-BD9F-168E998FAF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E58A00-D5E3-4EA5-BD9F-168E998FAF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E58A00-D5E3-4EA5-BD9F-168E998FAF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D444E89D-C728-40B5-B94E-8A6BFC4800BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D444E89D-C728-40B5-B94E-8A6BFC4800BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D444E89D-C728-40B5-B94E-8A6BFC4800BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D444E89D-C728-40B5-B94E-8A6BFC4800BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44DB7BC4-4CE3-4709-B3E8-139CE2ED6DFD}
+	EndGlobalSection
+EndGlobal
