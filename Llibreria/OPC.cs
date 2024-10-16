@@ -119,8 +119,12 @@ namespace Llibreria
         {
             string endpointUrl = "opc.tcp://localhost:4840"; // URL del servidor UPC UA
             string nodeIdToRead = "i=2256"; // Status del servidor
-            string nodeIdToSubscribe = "ns=4;s=|var|CODESYS Control Win V3 x64.Application.Sinc.Sortides"; // Replace with the NodeId of the variable you want to subscribe to
+
+            // Nodes de les variables de sortida i entrada
+            string nodeIdToSubscribe = "ns=4;s=|var|CODESYS Control Win V3 x64.Application.Sinc.Sortides";
             string nodeIdToWrite = "ns=4;s=|var|CODESYS Control Win V3 x64.Application.Sinc.Entrades";
+            // 
+            
             ApplicationInstance application = new ApplicationInstance
             {
                 ApplicationName = "OPC UA Client",
